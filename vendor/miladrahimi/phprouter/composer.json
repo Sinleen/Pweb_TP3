@@ -1,0 +1,34 @@
+{
+    "name": "miladrahimi/phprouter",
+    "description": "HTTP URL Router for PHP Projects",
+    "keywords": ["Router", "URL Router", "HTTP Router", "Routing", "URL", "HTTP", "Route"],
+    "homepage": "https://github.com/miladrahimi/phprouter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milad Rahimi",
+            "email": "info@miladrahimi.com",
+            "homepage": "http://miladrahimi.com",
+			"role": "Developer"
+        }
+    ],
+	"support": {
+        "email": "info@miladrahimi.com",
+        "source": "https://github.com/miladrahimi/phprouter/issues"
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "zendframework/zend-diactoros": "^1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "autoload": {
+    	"psr-4": {
+            "MiladRahimi\\PhpRouter\\": "src/MiladRahimi/PhpRouter/",
+            "MiladRahimi\\PhpRouter\\Tests\\": "tests/"
+        }
+    }
+}

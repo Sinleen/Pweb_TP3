@@ -1,0 +1,13 @@
+{
+    "name": "florian.bouchez/projet-tache",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bouchez Florian",
+            "email": "florian_bouchez@ens.univ-artois.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+	"psr-4": {"IutLens\\Tache\\" : "src/"}
+}

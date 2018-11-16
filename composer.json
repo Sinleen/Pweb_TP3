@@ -1,0 +1,29 @@
+{
+    "name": "florian.bouchez/projet-tache",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bouchez Florian",
+            "email": "florian_bouchez@ens.univ-artois.fr"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^3.15",
+        "miladrahimi/phprouter": "^3.0",
+        "zendframework/zend-diactoros": "^1.8.6",
+        "twbs/bootstrap": "^4.1",
+        "components/jquery": "^3.3",
+        "components/font-awesome": "^5.0",
+        "michelf/php-markdown": "^1.8",
+        "phpunit/phpunit": "^7.4",
+        "phpunit/dbunit": "^4.0"
+    },
+    "autoload": {
+	"psr-4": {"IutLens\\Tache\\" : "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
